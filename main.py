@@ -253,26 +253,7 @@ class App:
 
     def add_initial_data(self):
         initial_products = [
-            ('Ноутбук ASUS ROG Strix', 95000, 12),
-            ('Смартфон Xiaomi Redmi Note 13', 22000, 25),
-            ('Наушники Sony WH-1000XM5', 35000, 18),
-            ('Телевизор Samsung QLED 55"', 85000, 8),
-            ('Кофемашина DeLonghi Magnifica', 45000, 10),
-            ('Микроволновая печь LG', 12000, 15),
-            ('Холодильник Bosch Serie 6', 75000, 7),
-            ('Фитнес-трекер Xiaomi Mi Band 8', 3500, 40),
-            ('Игровая консоль PlayStation 5', 65000, 9),
-            ('Пылесос Dyson V11', 55000, 11),
-            ('Кроссовки Nike Air Force 1', 10000, 30),
-            ('Куртка The North Face', 18000, 22),
-            ('Кофе Jacobs Monarch', 500, 100),
-            ('Шоколад Lindt Excellence', 300, 85),
-            ('Молоко Parmalat ультрапастеризованное', 120, 50),
-            ('Смарт-часы Apple Watch Series 9', 45000, 14),
-            ('Планшет Samsung Galaxy Tab S9', 60000, 10),
-            ('Фен Dyson Supersonic', 40000, 12),
-            ('Стиральная машина Indesit', 32000, 6),
-            ('Велосипент Stark Trekker', 80000, 5)
+            ('Ноутбук ASUS ROG Strix', 95000, 12)
         ]
         
         for name, price, quantity in initial_products:
