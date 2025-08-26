@@ -7,7 +7,7 @@ from models import Product, Customer, Order
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Система управления складом")
+        self.root.title("Система учета заказов")
         self.db = Database()
         
         self.create_widgets()
